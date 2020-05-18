@@ -6,10 +6,10 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, array|
       array.each do |name|
         if pigeon_list[name] == nil
-          pigeon_list[name] => {} 
+          pigeon_list[name] = {} 
         end
         if pigeon_list[name][key] == nil 
-          pigeon_list[name][key] => []
+          pigeon_list[name][key] = []
         end
       end
     end
